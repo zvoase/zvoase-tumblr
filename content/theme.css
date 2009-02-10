@@ -2,7 +2,6 @@
 extension: css
 filter:
   - erb
-  - packr
 layout:    nil
 
 color:
