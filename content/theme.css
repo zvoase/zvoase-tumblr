@@ -379,7 +379,8 @@ pre {
   background-color: <%= @page.color['pre_background'] %>;
   color: <%= @page.color['pre_text'] %>;
   padding: 15px;
-  margin: 1.25em;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
 }
 
 .friendfeed .logo img {
