@@ -1,4 +1,9 @@
-.highlight  {
+---
+filter: packr
+layout: nil
+---
+
+div.highlight  {
   display: block;
   padding: 15px;
   margin-top: 1.25em;
@@ -7,6 +12,24 @@
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   CCborderRadius: 5px;
+}
+
+div.regular pre {
+  display: block;
+  padding: 15px;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  background-color: #1c1c1c;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  CCborderRadius: 5px;
+}
+
+div.highlight pre {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  background: transparent;
 }
 
 div.highlight pre span.hll {background-color: #404040;}
