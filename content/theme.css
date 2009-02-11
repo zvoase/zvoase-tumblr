@@ -2,6 +2,7 @@
 extension: css
 filter:
   - erb
+  - packr
 layout:    nil
 
 color:
@@ -112,12 +113,12 @@ p.permatime {
 div.blogMeta {
   border-bottom: 1px solid #DDD;
   padding: 1.3em 1em 1.8em 3em;
-  background: transparent url(http://tr.im/zvtumblrleft) no-repeat 0.5em 1.2em;
+  background: transparent url('http://tr.im/zvtumblrleft') no-repeat 0.5em 1.2em;
 }
 
 div.streamMeta {
   padding: 1.3em 1em 1.8em 3em;
-  background: transparent url(http://tr.im/zvtumblrdown) no-repeat 0.5em 1.2em;
+  background: transparent url('http://tr.im/zvtumblrdown') no-repeat 0.5em 1.2em;
 }
 
 a {
@@ -126,7 +127,7 @@ a {
 
 a.rss {
   padding: 0.2em 0.8em 0.2em 20px;
-  background: transparent url(http://tr.im/zvtumblrfeedicon) no-repeat left center;
+  background: transparent url('http://tr.im/zvtumblrfeedicon') no-repeat left center;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   font-weight: bold;
