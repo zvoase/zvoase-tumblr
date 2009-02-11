@@ -353,6 +353,8 @@ pre {
   display: block;
   background-color: black;
   color: white;
+  padding: 1em;
+  margin: 1.25em;
 }
 
 .friendfeed .logo img {
