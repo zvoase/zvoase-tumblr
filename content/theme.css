@@ -16,8 +16,8 @@ color:
   link_post: "#069"
   photo_border: "#eee"
   post_title: "#069"
-  pre_background: "black"
-  pre_text: "white"
+  pre_background: "#1c1c1c"
+  pre_text: "#bbb"
   quote: "#666"
   quote_source: "#444"
   text: "#444"
@@ -378,7 +378,7 @@ pre {
   display: block;
   background-color: <%= @page.color['pre_background'] %>;
   color: <%= @page.color['pre_text'] %>;
-  padding: 1em;
+  padding: 15px;
   margin: 1.25em;
 }
 
