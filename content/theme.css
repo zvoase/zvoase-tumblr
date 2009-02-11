@@ -6,6 +6,7 @@ layout:    nil
 
 color:
   background: "white"
+  code_text: "#bbb"
   content_background: "white"
   conversation_background: "#f8f8f8"
   conversation_border: "#ddd"
@@ -16,8 +17,6 @@ color:
   link_post: "#069"
   photo_border: "#eee"
   post_title: "#069"
-  pre_background: "#1c1c1c"
-  pre_text: "#bbb"
   quote: "#666"
   quote_source: "#444"
   text: "#444"
@@ -34,6 +33,11 @@ body {
 
 a {
   color: #069;
+}
+
+pre {
+  color: <%= @page.color['code_text'] %>;
+  margin: 0;
 }
 
 #navigation {
