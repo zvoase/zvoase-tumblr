@@ -22,8 +22,6 @@ div pre {
 
 div.highlight pre {
   margin: 0;
-  background: transparent;
-  
 }
 
 div.highlight pre span.hll {background-color: #404040;}
