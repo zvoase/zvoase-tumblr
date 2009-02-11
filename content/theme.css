@@ -381,7 +381,7 @@ pre {
   color: <%= @page.color['pre_text'] %>;
   padding: 15px;
   margin-top: 1.25em;
-  margin-bottom: 1.25em
+  margin-bottom: 1.25em;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   CCborderRadius: 5px;
