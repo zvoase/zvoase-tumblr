@@ -349,18 +349,6 @@ h1 a {
   font-weight: bold;
 }
 
-pre {
-  display: block;
-  background-color: #1c1c1c;
-  color: #bbb;
-  padding: 15px;
-  margin-top: 1.25em;
-  margin-bottom: 1.25em;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  CCborderRadius: 5px;
-}
-
 .friendfeed .logo img {
   display: none;
 }
