@@ -14,6 +14,8 @@ color:
   conversation_text: "#444"
   description: "#666"
   inline_link: "#069"
+  insertion_background: "#447fcf"
+  insertion_text: "white"
   link_post: "#069"
   photo_border: "#eee"
   post_title: "#069"
@@ -39,6 +41,18 @@ pre {
   color: <%= @page.color['code_text'] %>;
   margin: 0;
 }
+
+p ins {
+	display: block;
+	background-color: <%= @page.color['insertion_background'] %>;
+	color: <%= @page.color['insertion_text'] %>;;
+	text-decoration: none;
+	padding: 0.5em;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	CCborderRadius: 5px;
+}
+
 
 #navigation {
   background-color: #000;

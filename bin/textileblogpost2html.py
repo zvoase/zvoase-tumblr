@@ -13,7 +13,6 @@ import pygments.lexers
 
 HIGHLIGHT_RE = re.compile(r'^highlight (?P<name>[^\s]+)$')
 
-
 def get_lexer(name='text'):
     try:
         return pygments.lexers.get_lexer_by_name(name)

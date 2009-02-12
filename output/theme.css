@@ -16,6 +16,18 @@ pre {
   margin: 0;
 }
 
+p ins {
+	display: block;
+	background-color: #447fcf;
+	color: white;;
+	text-decoration: none;
+	padding: 0.5em;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	CCborderRadius: 5px;
+}
+
+
 #navigation {
   background-color: #000;
   margin: 0px;
